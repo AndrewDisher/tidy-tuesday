@@ -48,15 +48,6 @@ plot_title <- "<b style = 'font-size:20px;'>What to buy on Valentines Day!</b> <
        who spent money purchase greeting cards while <b>44% of 65+ individuals</b> who spent money purchase them. On the whole,
        young love is more frivolous and enduring love needs no embellishment. Or we just get lazier/cheaper as we age!</span>"
 
-x_lab <- "Age Group"
-
-y_lab <- "Percent of <br></br>
-          people  <br></br>
-          engaging <br></br>
-          in given <br></br>
-          spending <br></br>
-          habits"
-
 # -------------------------------------
 # ----- Function to Format Labels -----
 # -------------------------------------
