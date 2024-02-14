@@ -878,29 +878,6 @@
       ],
       "Hash": "3838071b66e0c566d55cc26bd6e27bf4"
     },
-    "showtext": {
-      "Package": "showtext",
-      "Version": "0.9-6",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "grDevices",
-        "showtextdb",
-        "sysfonts"
-      ],
-      "Hash": "c0fd332d248b195bbcb94a0dfda37b0d"
-    },
-    "showtextdb": {
-      "Package": "showtextdb",
-      "Version": "3.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "sysfonts",
-        "utils"
-      ],
-      "Hash": "c12e756cf947e58b0f2c2a520521a5a8"
-    },
     "stringi": {
       "Package": "stringi",
       "Version": "1.8.3",
@@ -937,13 +914,6 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "3a1be13d68d47a8cd0bfd74739ca1555"
-    },
-    "sysfonts": {
-      "Package": "sysfonts",
-      "Version": "0.8.8",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "7f4dac41a3e348ae12832167e6beb875"
     },
     "tibble": {
       "Package": "tibble",

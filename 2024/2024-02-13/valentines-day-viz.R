@@ -14,9 +14,6 @@ box::use(
   ggplot2[...],
   ggtext[...],
   monochromeR[generate_palette],
-  scales[percent],
-  showtext[showtext_auto],
-  sysfonts[font_add_google],
   tidyr[pivot_longer],
   tidytuesdayR[tt_load]
 )
@@ -31,17 +28,9 @@ historical_spending <- tuesdata$historical_spending
 gifts_age <- tuesdata$gifts_age
 gifts_gender <- tuesdata$gifts_gender
 
-# -----------------
-# ----- Fonts -----
-# -----------------
-
-font_add_google("Ubuntu", "ubuntu")
-showtext_auto(enable = F)
-
 # -----------------------------
 # ----- Color Definitions -----
 # -----------------------------
-"#480000" "#5C1D1D" "#713A3A" "#865757" "#9B7474" "#B09191" "#C5AEAE" "#DACCCC"
 color_palette <- generate_palette(colour = "#480000", 
                                   modification = "go_lighter", 
                                   n_colours = 8)
@@ -51,10 +40,6 @@ text_color <- color_palette[1]
 # ----------------------
 # ----- Label Text -----
 # ----------------------
-
-"Younger indivudals are typically more frivolous Valentines Day 
-       spenders while older individuals favor greeting cards or don't spend 
-       anything. "
 
 plot_title <- "<b style = 'font-size:20px;'>What to buy on Valentines Day!</b> <br></br>
        <span>When it comes to what we buy for the ones we love on Valentines
@@ -133,28 +118,7 @@ gifts_age %>%
       box.color = "#ffc7c6",
       linetype = 1,
       color = text_color
-    ),
-    # axis.title.x = element_textbox_simple(
-    #   width = NULL,
-    #   padding = margin(3, 3, 3, 3),
-    #   margin = margin(7, 0, 0, 0),
-    #   linetype = 1,
-    #   r = grid::unit(5, "pt"),
-    #   fill = "#ffc7c6",
-    #   box.color = "#ffc7c6",
-    #   color = text_color
-    # ),
-    # axis.title.y = element_textbox_simple(
-    #   width = NULL,
-    #   # orientation = "left-rotated",
-    #   padding = margin(3, 3, 3, 3),
-    #   margin = margin(0, 7, 0, 0),
-    #   linetype = 1,
-    #   r = grid::unit(5, "pt"),
-    #   fill = "#ffc7c6",
-    #   box.color = "#ffc7c6",
-    #   color = text_color
-    # )
+    )
   ) + 
   guides(color = guide_legend(nrow = 1), 
          fill = guide_legend(nrow = 1))
