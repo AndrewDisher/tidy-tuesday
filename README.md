@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 ## My Tidy Tuesday Visualizations!
 
 This repository contains all of my data visualizations for the [Tidy
