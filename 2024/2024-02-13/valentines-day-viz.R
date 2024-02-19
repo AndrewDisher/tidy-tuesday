@@ -3,7 +3,7 @@
 # Date: 2/13/2024
 # Topic: Tidy Tuesday - Valentines Spending
 #
-# TASK: Download data for Tidy Tuesday.
+# TASK: Create a visualization for valentines day data.
 
 # ------------------------------
 # ----- Libraries/Packages -----
